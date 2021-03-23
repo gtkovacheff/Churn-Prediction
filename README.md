@@ -1,2 +1,2 @@
 # Churn-Prediction
-Develop machine learning algorithm to capture the churners
+Develop machine learning algorithm that is able to capture future churners.

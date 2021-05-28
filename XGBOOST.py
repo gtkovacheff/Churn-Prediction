@@ -75,6 +75,12 @@ y_pred = model.predict(X_test)
 
 #calculate the confusion matrix and print the precision and recall, the algorithm did well
 cm = confusion_matrix(y_test, y_pred)
+print(cm)
+# [[ 296   31]
+#  [  19 1680]]
+
 print(f'Precision: {precision_score(y_test, y_pred)}', f'Recall: {recall_score(y_test, y_pred)}')
+# Precision: 0.9818819403857393
+# Recall: 0.9888169511477339
 
 
